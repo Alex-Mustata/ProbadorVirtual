@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "TEXTO";
+  src: url("../fonts/Timeless.ttf") format("truetype"), url("../fonts/Timeless-Bold.ttf") format("truetype");
+
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TITULO";
+  src: url("../fonts/Sugo-Pro-Display-Bold-trial.ttf") format("truetype");
+
+  font-style: normal;
+  font-display: swap;
+}
+
+h1{
+    font-family: "TITULO", sans-serif;
+    font-size: 6rem;
+}
+
+h2{
+    font-family: "TITULO", sans-serif;
+    font-size: 4rem;
+}
+
+h3, h4, p{
+    font-family: "TEXTO", sans-serif;
+   
+}
