@@ -34,5 +34,22 @@ h3, h4, p{
     font-family: "TITULO", sans-serif;
     font-size: 3rem;
     text-align: center;
-}
+  }
+
+  .grupo_imagenes{
+    display: none;
+  }
+  .grupo_texto{
+    width: 100vw; 
+    display: flex;
+    padding: 10px;
+  }
+  p{
+    font-size: 20px;
+    width: 100%;
+  }
+  #que_ofrecemos{
+    display: flex;
+    flex-direction: column;
+  }
 }
